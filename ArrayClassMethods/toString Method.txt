@@ -1,0 +1,14 @@
+toString Method
+Definition: Converts an array to a readable string.
+Best for printing flat (1D) arrays.
+
+
+
+import java.util.Arrays;
+
+public class ToStringExample {
+    public static void main(String[] args) {
+        String[] colors = {"Red", "Green", "Blue"};
+        System.out.println("Colors: " + Arrays.toString(colors));
+    }
+}

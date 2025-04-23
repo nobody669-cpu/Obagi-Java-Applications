@@ -1,0 +1,14 @@
+Fill Method
+Definition: Fills an entire array with a specified value.
+Useful for initialization or resetting.
+
+
+import java.util.Arrays;
+
+public class FillExample {
+    public static void main(String[] args) {
+        int[] scores = new int[5];
+        Arrays.fill(scores, 100); // All elements become 100
+        System.out.println("Filled array: " + Arrays.toString(scores));
+    }
+}

@@ -1,0 +1,15 @@
+ Binary Search Method
+Definition: Searches a sorted array faster by repeatedly dividing it in half.
+
+ Use Arrays.binarySearch(). Works only when array is sorted.
+
+import java.util.Arrays;
+
+public class BinarySearchExample {
+    public static void main(String[] args) {
+        int[] values = {3, 9, 12, 18, 25};
+        int result = Arrays.binarySearch(values, 18);
+        System.out.println("Index of 18: " + result); // returns index
+    }
+}
+

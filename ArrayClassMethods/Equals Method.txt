@@ -1,0 +1,14 @@
+ Equals Method
+Definition: Compares two arrays element-by-element.
+ Returns true only if both arrays are of same length and contents.
+
+
+import java.util.Arrays;
+
+public class EqualsExample {
+    public static void main(String[] args) {
+        int[] a1 = {1, 2, 3};
+        int[] a2 = {1, 2, 3};
+        System.out.println("Arrays are equal: " + Arrays.equals(a1, a2));
+    }
+}

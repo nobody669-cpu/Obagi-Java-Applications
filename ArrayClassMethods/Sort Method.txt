@@ -1,0 +1,18 @@
+1. Sort Method
+Definition: Sorts an array in ascending order.
+
+
+ Arrays.sort() changes the order of elements from lowest to highest (alphabetical for strings).
+
+java
+Copy
+Edit
+import java.util.Arrays;
+
+public class SortExample {
+    public static void main(String[] args) {
+        int[] numbers = {42, 7, 13, 99, 5};
+        Arrays.sort(numbers);  // modifies the array
+        System.out.println("Sorted: " + Arrays.toString(numbers));
+    }
+}

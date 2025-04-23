@@ -1,0 +1,17 @@
+Command Line Arguments
+Definition: Inputs passed from the terminal when starting a program.
+Accessed using args[] in main(String[] args).
+
+
+public class CommandLineExample {
+    public static void main(String[] args) {
+        if (args.length > 0) {
+            System.out.println("Arguments passed:");
+            for (String arg : args) {
+                System.out.println(arg);
+            }
+        } else {
+            System.out.println("No arguments provided.");
+        }
+    }
+}

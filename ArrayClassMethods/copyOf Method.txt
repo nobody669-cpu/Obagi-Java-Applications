@@ -1,0 +1,14 @@
+copyOf Method
+Definition: Creates a copy of an array, with optional resizing.
+Extra spaces get filled with default values (0, null, etc).
+
+
+import java.util.Arrays;
+
+public class CopyOfExample {
+    public static void main(String[] args) {
+        int[] original = {5, 10, 15};
+        int[] copy = Arrays.copyOf(original, 5); // length = 5
+        System.out.println("Copied array: " + Arrays.toString(copy));
+    }
+}

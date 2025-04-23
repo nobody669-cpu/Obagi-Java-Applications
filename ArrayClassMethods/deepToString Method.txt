@@ -1,0 +1,16 @@
+deepToString Method
+Definition: Converts multi-dimensional arrays to readable string.
+ Needed for nested or 2D arrays.
+
+
+import java.util.Arrays;
+
+public class DeepToStringExample {
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2},
+            {3, 4}
+        };
+        System.out.println("Matrix: " + Arrays.deepToString(matrix));
+    }
+}
